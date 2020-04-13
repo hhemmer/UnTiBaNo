@@ -76,7 +76,7 @@ You can register for an account at [PushOver.net](https://pushover.net/) and tes
 
 # Configuration
 The _config.json_ file is used to configure the system. It holds the configuration of messages, locale and the pushover account information.
-```json
+```javascript
     {
 	"notification" :                             // Notification related data
 		{
@@ -110,7 +110,8 @@ When saving, you are redirected to the monitor page below. \
 <br><br>
 <img src="img/screenshotMonitor.jpg"
      alt="Monitor Page"
-     style="float: left; margin-right: 10px; width: 140px" />
+     style="float: left; margin-right: 10px;"
+     width="140px"/>
 ## __Check for the last occurance__
 ### _http://IP_or_HOST:8088/monitor_
 Open the URL in a browser to see when the last event was logged and how long it was ago.
