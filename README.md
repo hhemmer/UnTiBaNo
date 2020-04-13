@@ -101,6 +101,7 @@ The _config.json_ file is used to configure the system. It holds the configurati
 The root page of the server will present links to the next two pages __http://IP_or_HOST:8088/__
 
 <img src="img/screenshotInput.jpg"
+     align="left" 
      alt="Input Page"
      style="float: left; margin-right: 10px;"
      width="140px"/>
@@ -113,6 +114,7 @@ So it is optimised to scroll back in time fast with a _-1 minute_ button until t
 When saving, you are redirected to the monitor page below. \
 <br><br>
 <img src="img/screenshotMonitor.jpg"
+     align="left" 
      alt="Monitor Page"
      style="float: left; margin-right: 10px;"
      width="140px"/>
@@ -121,6 +123,7 @@ When saving, you are redirected to the monitor page below. \
 Open the URL in a browser to see when the last event was logged and how long it was ago.
 <br><br><br><br><br><br>
 <img src="img/screenshotNotifier.png"
+     align="left" 
      alt="Configure simple time-based notification"
      style="float: left; margin-right: 10px;"
      width="140px"/>
@@ -130,6 +133,7 @@ Open the URL in a browser and enter a message and time in minutes, when the noti
 <br><br><br><br><br><br><br><br>
 ## __Receive Push Notification__
 <img src="img/notification.jpg"
+     align="left" 
      alt="Get your notification push"
      style="float: left; margin-right: 10px;"
      width="350px"/>
