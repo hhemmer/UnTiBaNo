@@ -1,0 +1,30 @@
+html
+  head
+   meta(name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover")
+   link(rel="apple-touch-icon", href=app_icon)
+   link(rel='stylesheet' href='/libs/untibano.css')
+   script(src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js')
+   title #{title}
+  body
+    header
+       div(class="container")
+          p #{header}
+    main
+       article
+           center
+               div(class="wrapper")
+                  div(class="box datum")
+                     p(id="datum") -
+                  div(onclick="substract_minutes(1); renderTime();" class=" substract")
+                     p(id="minus") -1 min
+                  div(class="box hour")
+                     p(id="stunde") -
+                  div(class="box minute")
+                     p(id="minute") -
+                  br
+                  div(id="saveButton" onclick="saveData( '"+hostname +"', '"+port+"' );" class="box save")
+                     p Save
+    footer
+        p(class="container")
+           a(href="https://www.github.com/hhemmer/UnTiBaNo") Visit project on GitHub
+    script(src='/libs/untibano.js')

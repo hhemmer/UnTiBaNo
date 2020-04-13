@@ -1,0 +1,27 @@
+{
+  "name": "UnTiBaNo",
+  "version": "1.0.0",
+  "description": "Universal Time-based Notifications",
+  "main": "untibano.js",
+  "scripts": {
+    "start": "node untibano.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "fs": "^0.0.2",
+    "moment": "^2.24.0",
+    "pug": "^2.0.0-beta6",
+    "request": "^2.88.2",
+    "sqlite3": "^4.1.1"
+  },
+  "engines": {
+    "node": "4.0.0"
+  },
+  "keywords": [
+    "timer",
+    "push notifications",
+    "baby bottle"
+  ],
+  "author": "Helge Hemmer"
+}

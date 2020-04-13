@@ -1,0 +1,28 @@
+html
+  head
+   meta(name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover")
+
+   link(rel='stylesheet' href='/libs/untibano.css')
+   title Generic Notifier
+  body
+   header
+      div(class="container")
+         p Send a notification
+   main
+      article
+          center
+             b
+               form(method="post",action="/notification",id="myForm",onsubmit="return false;")
+                div(class="wrapper")
+                  div(class="box inputMessage")
+                    p(id="titleMessage") Message
+                    input(type="text", name="message")
+                  div(class="box inputTime")
+                    p(id="titleMinutes") Send in
+                    input(type="text", name="minutes")
+                    p(id="subtitleMinutes") Minutes  
+                  div(class="box executeTimer", onclick=" document.getElementById('myForm').submit(); ")
+                    p(id="minutes") Execute
+   footer
+       p(class="container")
+          a(href="https://www.github.com/hhemmer/UnTiBaNo") Visit project on GitHub

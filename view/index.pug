@@ -1,0 +1,24 @@
+html
+  head
+   meta(name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover")
+   link(rel="apple-touch-icon", href=app_icon)
+   link(rel='stylesheet' href='/libs/untibano.css')
+   title #{header}
+  body
+   header
+      div(class="container")
+         p #{header}
+   main
+      article
+          center
+             b
+                div(class="wrapper")
+                  div(class="box redirectNew", onclick="window.location = 'http://"+hostname +":"+port+"/input'")
+                    p(id="new") New Event
+                  div(class="box redirectMonitor", onclick="window.location = 'http://"+hostname +":"+port+"/monitor'")
+                    p(id="monitor") See Last Event
+                  div(class="box redirectGeneric", onclick="window.location = 'http://"+hostname +":"+port+"/notifier'")
+                    p(id="notifier") Generic Timer
+   footer
+       p(class="container")
+          a(href="https://www.github.com/hhemmer/UnTiBaNo") Visit project on GitHub

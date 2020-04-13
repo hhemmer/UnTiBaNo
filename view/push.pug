@@ -1,0 +1,21 @@
+html
+  head
+   meta(name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover")
+
+   link(rel='stylesheet' href='/libs/untibano.css')
+   title Generic Notifier
+  body
+   header
+      div(class="container")
+         p Send a notification
+   main
+      article
+          center
+             b
+                div(class="wrapper")
+                  div(class="box redirectNew")
+                    p(id="message") #{message}
+                    p(id="timer") will be send in #{minutes} minutes
+   footer
+       p(class="container")
+          a(href="https://www.github.com/hhemmer/UnTiBaNo") Visit project on GitHub

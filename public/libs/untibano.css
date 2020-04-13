@@ -1,0 +1,162 @@
+
+	.wrapper {
+		display: grid;
+		vertical-align: center;
+		margin: 40px;
+		padding: 10px;
+		grid-gap: 8px;
+		grid-template-columns: 90px 90px 90px;
+		background-color: #fff;
+		color: #444;
+		width: 305px;
+	}
+
+	.box {
+		background-color: #444;
+		color: #fff;
+		border-radius: 5px;
+		padding: 20px;
+		font-size: 150%;
+
+	}
+
+	.datum {
+		grid-column: 1 / 3;
+		grid-row: 1;
+		color: lightgray;
+	}
+	
+	.substract {
+		grid-column: 3 ;
+		grid-row: 1 / 3;
+		background-color: #444;
+		color: #fff;
+		border-radius: 100px;
+		padding: 20px;
+		font-size: 150%;
+		vertical-align: middle;
+	}
+	
+	.hour {
+		grid-column: 1 ;
+		grid-row: 2 ;
+		font-weight: bolder;
+	}
+	
+	.minute {
+		grid-column: 2;
+		grid-row: 2;
+		font-weight: bolder;
+	}
+	
+	.save {
+		grid-column: 1/4;
+		grid-row: 4;
+		font-weight: bolder;
+		margin: 20px;
+	}
+	
+	.redirectNew {
+		grid-column: 1/4;
+		grid-row: 1;
+		font-weight: bolder;
+		margin: 20px;
+	}
+	.redirectMonitor {
+		grid-column: 1/4;
+		grid-row: 2;
+		font-weight: bolder;
+		margin: 20px;
+	}
+	.redirectGeneric {
+		grid-column: 1/4;
+		grid-row: 3;
+		font-weight: bolder;
+		margin: 20px;
+	}
+	.executeTimer {
+		grid-column: 1/4;
+		grid-row: 4;
+		font-weight: bolder;
+		margin: 20px;
+	}
+	
+	.inputMessage {
+		grid-column: 1/4;
+		grid-row: 1;
+		font-weight: bolder;
+		margin: 20px;
+	}
+	.inputTime {
+		grid-column: 1/4;
+		grid-row: 2;
+		font-weight: bolder;
+		margin: 20px;
+	}
+
+	* 	{
+		box-sizing: border-box;
+	}
+
+	body {
+		margin: 0;
+		min-height: 100vh;
+		display: flex;
+		flex-direction: column;
+		font-family: system-ui, sans-serif;
+	}
+	
+	html, body {
+		margin: 0;
+		padding: 0;
+		font-family: sans-serif;
+	}
+	   
+	h1 {
+		font-size: 5em;
+	}
+	   
+	nav {
+		background: #0f1214;
+		padding: 
+			env(safe-area-inset-top) 
+			env(safe-area-inset-right) 
+			0 
+			env(safe-area-inset-left);
+	}
+	
+    header {
+		background: #0c8aa7;
+		color: white;
+		padding: 
+			0
+			env(safe-area-inset-right) 
+			0 
+			env(safe-area-inset-left);
+	}
+    
+	.container {
+		max-width: 1000px;
+		margin: 0 auto;
+		padding: 1em;
+	}
+
+    main {
+		background: #eee;
+		flex: 1;
+		padding: 
+			0
+			env(safe-area-inset-right) 
+			0 
+			env(safe-area-inset-left);
+	}
+    
+	footer {
+		background: #91b925;
+		color: white;
+		padding: 
+			0
+			env(safe-area-inset-right) 
+			env(safe-area-inset-bottom) 
+			env(safe-area-inset-left);
+	}
