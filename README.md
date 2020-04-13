@@ -105,7 +105,6 @@ The root page of the server will present links to the next two pages __http://IP
      alt="Input Page"
      style="float: left; margin-right: 10px;"
      width="140px"/>
-<br>
 ## __Save an event__
 ### _http://IP_or_HOST:8088/input_
 Open the URL in a browser.
