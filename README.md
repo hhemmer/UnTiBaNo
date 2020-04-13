@@ -60,7 +60,8 @@ and is executed in the folder you extracted the package to.
 ## Add as an App to the iPhone/iPad homescreen
 <img src="img/appIcon.jpg"
      alt="Link on your home screen"
-     style="float: left; margin-right: 10px; width: 65px" />
+     style="float: left; margin-right: 10px;"
+     width="65px"/>
 To be easily started just as every other app on your phone or tablet, you may add a link to the home screen for the webpage. You can do this by clicking the share icon <i class="far fa-share-square"/></i> in Safari and then choose to _Add to Home Screen_. 
 The icon that will be shown can be configured in your _config.json_, the name will be the title configured in the same file. 
 An example for the Baby Bottle usecase is shown on the left.
@@ -100,7 +101,9 @@ The root page of the server will present links to the next two pages __http://IP
 
 <img src="img/screenshotInput.jpg"
      alt="Input Page"
-     style="float: left; margin-right: 10px; width: 140px" />
+     style="float: left; margin-right: 10px;"
+     width="140px"/>
+<br>
 ## __Save an event__
 ### _http://IP_or_HOST:8088/input_
 Open the URL in a browser.
@@ -118,7 +121,8 @@ Open the URL in a browser to see when the last event was logged and how long it 
 <br><br><br><br><br><br>
 <img src="img/screenshotNotifier.png"
      alt="Configure simple time-based notification"
-     style="float: left; margin-right: 10px; width: 140px" />
+     style="float: left; margin-right: 10px;"
+     width="140px"/>
 ## __Add a general timer notification__
 ### _http://IP_or_HOST:8088/notifier_
 Open the URL in a browser and enter a message and time in minutes, when the notification should be sent.
@@ -126,7 +130,8 @@ Open the URL in a browser and enter a message and time in minutes, when the noti
 ## __Receive Push Notification__
 <img src="img/notification.jpg"
      alt="Get your notification push"
-     style="float: left; margin-right: 10px; width: 350px" />
+     style="float: left; margin-right: 10px;"
+     width="350px"/>
 <br/><br/>
 When PushOver is configured, you will receive you push notification after the time configured in _config.json_ about the registered event of your main workflow or when the general timer you added is expired.
 
