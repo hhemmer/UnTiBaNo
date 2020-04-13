@@ -59,6 +59,7 @@ and is executed in the folder you extracted the package to.
 
 ## Add as an App to the iPhone/iPad homescreen
 <img src="img/appIcon.jpg"
+     align="left" 
      alt="Link on your home screen"
      style="float: left; margin-right: 10px;"
      width="65px"/>
